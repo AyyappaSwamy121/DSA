@@ -18,9 +18,7 @@ def partition(s , e):
             arr[i],arr[j]=arr[j],arr[i]
     arr[e],arr[i]=arr[i],arr[e]
     return i
-
-
-
-arr = [4,7,1,8,6,6,5]
+    
+arr = [4,2,56,3,6,,4]
 quick(0,len(arr)-1)
 print(arr)
