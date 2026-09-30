@@ -5,7 +5,6 @@ class Solution:
         
         for num in nums:
             m[num] += 1
-        
         n = n // 2
         for key, value in m.items():
             if value > n:
